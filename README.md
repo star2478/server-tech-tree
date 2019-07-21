@@ -1,2 +1,2 @@
-# 服务端架构设计
+# 服务端技术树
 详见wiki：https://github.com/star2478/server-architecture/wiki
