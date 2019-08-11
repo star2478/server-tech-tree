@@ -10,6 +10,7 @@ IT界发展至今，已经诞生了数以亿计的服务端软件技术，大到
 每项技术的能力偏向饼图（以10个技术维度）
 比如，举个例子
 遇到一个成本问题，但成本并非元问题，而是结果，经过分析是研发效率问题，xxx，最后用xx指标进行效果评估
+运维实际主要解决的是资源管理效率问题
 ```
 
 * 待归类：
@@ -17,7 +18,7 @@ IT界发展至今，已经诞生了数以亿计的服务端软件技术，大到
   * 规则引擎：groovy&drools，设计思路和目标？？
   * spring家族
 
-## 十大元问题
+## 九大元问题
 * [研发效率](https://github.com/star2478/server-tech-tree/wiki/研发效率)
 * [资源使用效率](https://github.com/star2478/server-tech-tree/wiki/资源使用效率)
 * [可用性](https://github.com/star2478/server-tech-tree/wiki/可用性)
@@ -26,7 +27,4 @@ IT界发展至今，已经诞生了数以亿计的服务端软件技术，大到
 * [伸缩性](https://github.com/star2478/server-tech-tree/wiki/伸缩性)
 * [扩展性](https://github.com/star2478/server-tech-tree/wiki/扩展性)
 * [安全](https://github.com/star2478/server-tech-tree/wiki/安全)
-* [可维护性](https://github.com/star2478/server-tech-tree/wiki/可维护性)
 * [质量](https://github.com/star2478/server-tech-tree/wiki/质量)
-
-> 本文所划分的元问题仅代表作者个人意见
