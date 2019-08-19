@@ -14,15 +14,15 @@ IT界发展至今，已经诞生了数以亿计的服务端软件技术，大到
 ```
 
 ## 元问题
-* [研发效率](https://github.com/star2478/server-tech-tree/wiki/研发效率)
-* [资源管理效率](https://github.com/star2478/server-tech-tree/wiki/资源管理效率)
-* [可用性](https://github.com/star2478/server-tech-tree/wiki/可用性)
-* [数据](https://github.com/star2478/server-tech-tree/wiki/数据)
-* [性能](https://github.com/star2478/server-tech-tree/wiki/性能)
-* [伸缩性](https://github.com/star2478/server-tech-tree/wiki/伸缩性)
-* [扩展性](https://github.com/star2478/server-tech-tree/wiki/扩展性)
-* [安全](https://github.com/star2478/server-tech-tree/wiki/安全)
-* [质量](https://github.com/star2478/server-tech-tree/wiki/质量)
+* [研发效率](https://github.com/star2478/server-tech-tree/blob/master/研发效率.md)
+* [资源管理效率](https://github.com/star2478/server-tech-tree/blob/master/资源管理效率.md)
+* [可用性](https://github.com/star2478/server-tech-tree/blob/master/可用性.md)
+* [数据](https://github.com/star2478/server-tech-tree/blob/master/数据.md)
+* [性能](https://github.com/star2478/server-tech-tree/blob/master/性能.md)
+* [伸缩性](https://github.com/star2478/server-tech-tree/blob/master/伸缩性.md)
+* [扩展性](https://github.com/star2478/server-tech-tree/blob/master/扩展性.md)
+* [安全](https://github.com/star2478/server-tech-tree/blob/master/安全.md)
+* [质量](https://github.com/star2478/server-tech-tree/blob/master/质量.md)
 
 
 keepalived实现VIP
