@@ -16,7 +16,7 @@ p和np问题
 
 ## 元问题
 * [研发效率](https://github.com/star2478/server-tech-tree/blob/master/研发效率.md)
-* [资源管理效率](https://github.com/star2478/server-tech-tree/blob/master/资源管理效率.md)
+* [资源管理能力](https://github.com/star2478/server-tech-tree/blob/master/资源管理能力.md)
 * [可用性](https://github.com/star2478/server-tech-tree/blob/master/可用性.md)
 * [数据](https://github.com/star2478/server-tech-tree/blob/master/数据.md)
 * [性能](https://github.com/star2478/server-tech-tree/blob/master/性能.md)
