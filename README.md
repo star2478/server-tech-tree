@@ -24,3 +24,4 @@ p和np问题
 * [扩展性](https://github.com/star2478/server-tech-tree/blob/master/扩展性.md)
 * [安全](https://github.com/star2478/server-tech-tree/blob/master/安全.md)
 * [质量](https://github.com/star2478/server-tech-tree/blob/master/质量.md)
+* [智能](https://github.com/star2478/server-tech-tree/blob/master/智能.md)
