@@ -14,11 +14,7 @@ IT界发展至今，已经诞生了数以亿计的服务端软件技术，大到
 运维实际主要解决的是资源管理效率问题
 p和np问题
 ```
-ds
 
-\frac{7x+5}{1+y^2}
-
-sd
 ## 元问题
 * [研发效率](https://github.com/star2478/server-tech-tree/blob/master/研发效率.md)
 * [资源管理能力](https://github.com/star2478/server-tech-tree/blob/master/资源管理能力.md)
