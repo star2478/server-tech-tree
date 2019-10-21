@@ -8,7 +8,10 @@
 
 本文通过对业内主流思路的借鉴，提出一个独特的元问题模型，将现代服务端软件技术描述成是一棵由9大元问题领域组成的技术树。经过多年发展，每个元问题领域都已沉淀大量成熟软件或技术理论，在日常研发和技术选型前，技术人员应该先弄清楚自己要解决的元问题是什么，再利用或借鉴该元问题领域下的已有软件或技术理论去做研发。
 
-![服务端软件技术元问题模型](https://github.com/star2478/server-tech-tree/blob/master/img/server-tech-tree-model.png)
+<div align="center">
+    <a href="https://github.com/star2478/server-tech-tree/blob/master/img/server-tech-tree-model.png"> <img src="https://github.com/star2478/server-tech-tree/blob/master/img/server-tech-tree-model.png"></a>
+</div>
+<br>
 
 * 各元问题定义与指标：[定义和指标](https://github.com/star2478/server-tech-tree/blob/master/定义和指标.md)
 
