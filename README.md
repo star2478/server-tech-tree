@@ -21,7 +21,7 @@
     * [开发框架与微服务](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/开发框架与微服务.md)
     * [ServiceMesh服务网格技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/ServiceMesh服务网格技术.md)
     * [Serverless无服务技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/Serverless无服务技术.md)
-    * [共享技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/共享技术.md)
+    * [共享技术与中台](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/共享技术与中台.md)
     * [扩展性技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/扩展性技术.md)
     * [无代码开发](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/无代码开发.md)
 * [资源管理能力](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/资源管理能力.md)
