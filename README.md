@@ -24,7 +24,12 @@
     * [共享技术与中台](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/共享技术与中台.md)
     * [扩展性技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/扩展性技术.md)
     * [无代码开发](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/无代码开发.md)
-* [资源管理能力](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/资源管理能力.md)
+* 资源管理能力
+    * [云计算SaaS与云原生](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算SaaS与云原生.md)
+    * [云计算PaaS与容器](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算PaaS与容器.md)
+    * [云计算IaaS与虚拟化技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算IaaS与虚拟化技术.md)
+    * [运行时服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/运行时服务治理.md)
+    * [DevOps与CICD](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/DevOps与CICD.md)
 * [可用性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/可用性.md)
 * [伸缩性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/伸缩性.md)
 * [性能](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/性能.md)
