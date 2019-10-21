@@ -1,6 +1,7 @@
 # Serverless无服务技术
 
 ## serverless
+* AWS lambda、knative、OpenWhisk、CSE
 * 研发效率 & 资源管理能力
 * 适用场景：
   * 应用负载有显著的波峰波谷
