@@ -16,7 +16,7 @@
 ## 元问题定义与指标
 * [定义和指标](https://github.com/star2478/server-tech-tree/blob/master/元问题定义和指标.md)
 
-## 元问题主要技术或理论
+## 元问题主要技术
 * [开发效率](https://github.com/star2478/server-tech-tree/blob/master/开发效率.md)
 * [资源管理能力](https://github.com/star2478/server-tech-tree/blob/master/资源管理能力.md)
 * [可用性](https://github.com/star2478/server-tech-tree/blob/master/可用性.md)
