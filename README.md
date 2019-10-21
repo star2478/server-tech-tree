@@ -28,7 +28,7 @@
     * [云计算SaaS与云原生](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算SaaS与云原生.md)
     * [云计算PaaS与容器](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算PaaS与容器.md)
     * [云计算IaaS与虚拟化技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算IaaS与虚拟化技术.md)
-    * [运行时服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/运行时服务治理.md)
+    * [服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/服务治理.md)
     * [DevOps与CICD](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/DevOps与CICD.md)
 * [可用性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/可用性.md)
 * [伸缩性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/伸缩性.md)
