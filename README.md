@@ -30,7 +30,10 @@
     * [云计算IaaS与虚拟化技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/云计算IaaS与虚拟化技术.md)
     * [服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/服务治理.md)
     * [DevOps与CICD](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/DevOps与CICD.md)
-* [可用性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/可用性.md)
+* 可用性
+    * [容错、熔断、降级](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容错、熔断、降级.md)
+    * [容灾](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容灾.md)
+    * [注册中心](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/注册中心.md)
 * [伸缩性](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/伸缩性.md)
 * [性能](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/性能.md)
 * [安全](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/安全.md)
