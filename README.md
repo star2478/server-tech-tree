@@ -18,6 +18,7 @@
 
 ## 元问题主要技术
 * 开发效率
+    * [编程语言表达力](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/编程语言表达力.md)
     * [开发框架与微服务](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/开发框架与微服务.md)
     * [ServiceMesh服务网格技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/ServiceMesh服务网格技术.md)
     * [Serverless无服务技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/Serverless无服务技术.md)
@@ -31,19 +32,27 @@
     * [服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/服务治理.md)
     * [DevOps与CICD](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/DevOps与CICD.md)
 * 可用性
-    * [容错、熔断、降级](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容错、熔断、降级.md)
+    * [容错/熔断/降级](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容错\/熔断\/降级.md)
     * [容灾](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容灾.md)
     * [注册中心](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/注册中心.md)
 * 伸缩性
     * [接入层负载均衡](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/接入层负载均衡.md)
     * [应用层负载均衡](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/应用层负载均衡.md)
-* [性能](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/性能.md)
+* 性能
+    * [高性能模型](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/高性能模型.md)
+    * [异步架构](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/异步架构.md)
+    * [缓存](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/缓存.md)
+    * [垃圾回收](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/垃圾回收.md)
+    * [边缘计算](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/边缘计算.md)
+    * [硬件使用优化](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/硬件使用优化.md)
+    * [性能测试](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/性能测试.md)
 * 安全
     * [区块链](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/区块链.md)
     * [分布式事务](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/分布式事务.md)
-    * [框架与代码安全](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/框架与代码安全.md)
+    * [安全编程框架](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/安全编程框架.md)
     * [接入层安全](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/接入层安全.md)
     * [应用层安全](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/应用层安全.md)
+    * [安全监测](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/安全监测.md)
     * [演练与应急](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/演练与应急.md)
 * [质量](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/质量.md)
 * [数据](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/数据/数据.md)
