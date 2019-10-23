@@ -32,7 +32,7 @@
     * [服务治理](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/服务治理.md)
     * [DevOps与CICD](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/资源管理能力/DevOps与CICD.md)
 * 可用性
-    * [容错/熔断/降级](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容错\/熔断\/降级.md)
+    * [容错、熔断、降级](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容错、熔断、降级.md)
     * [容灾](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/容灾.md)
     * [注册中心](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/可用性/注册中心.md)
 * 伸缩性
@@ -40,7 +40,7 @@
     * [应用层负载均衡](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/伸缩性/应用层负载均衡.md)
 * 性能
     * [高性能模型](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/高性能模型.md)
-    * [异步架构](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/异步架构.md)
+    * [异步架构与消息队列](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/异步架构与消息队列.md)
     * [缓存](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/缓存.md)
     * [垃圾回收](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/垃圾回收.md)
     * [边缘计算](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/性能/边缘计算.md)
@@ -54,6 +54,10 @@
     * [应用层安全](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/应用层安全.md)
     * [安全监测](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/安全监测.md)
     * [演练与应急](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/安全/演练与应急.md)
-* [质量](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/质量.md)
+* 质量
+    * [全阶段测试](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/全阶段测试.md)
+    * [白盒、黑盒、灰盒测试](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/白盒、黑盒、灰盒测试.md)
+    * [静态测试和动态测试](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/静态测试和动态测试.md)
+    * [测试驱动开发](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/质量/测试驱动开发.md)
 * [数据](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/数据/数据.md)
 * [智能](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/智能/智能.md)
