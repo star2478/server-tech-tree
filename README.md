@@ -14,7 +14,7 @@
 <br>
 
 ## 元问题定义与指标
-* [定义和指标](https://github.com/star2478/server-tech-tree/blob/master/元问题定义和指标.md)
+* [定义和指标](https://github.com/star2478/server-tech-tree/blob/master/元问题定义和指标/定义和指标.md)
 
 ## 元问题主要技术
 * 开发效率
