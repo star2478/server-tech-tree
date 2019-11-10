@@ -18,7 +18,7 @@
 
 ## 元问题主要技术
 * 开发效率
-    * [编程语言表达力](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/编程语言表达力.md)
+    * [编程语言表达力](元问题主要技术/开发效率/编程语言表达力.md)
     * [开发框架与微服务](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/开发框架与微服务.md)
     * [ServiceMesh服务网格技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/ServiceMesh服务网格技术.md)
     * [Serverless无服务技术](https://github.com/star2478/server-tech-tree/blob/master/元问题主要技术/开发效率/Serverless无服务技术.md)
