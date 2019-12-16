@@ -64,7 +64,7 @@ public static void main(String[] args) {
     * 这个map和后面的singletonObjects单例池都是全局数据结构，大部分操作都得使用synchronized防并发
 * 按排序顺序执行所有`BeanFactoryPostProcessor`：BeanFactoryPostProcessor是一个接口，实际执行的是该接口的所有实现类相关方法
 * 注册和初始化所有`BeanPostProcessor`：BeanPostProcessor也是一个接口，但这里只是注册和初始化它的实现类，真正执行是在下一个阶段——bean初始化
-> BeanFactoryPostProcessor和BeanPostProcessor都是Spring的扩展点。前者在容器初始化阶段执行，可以对BeanDefinition进行扩展改造（比如修改bean的scope属性），后者在bean初始化阶段执行，可以对bean实例化过程进行扩展改造（比如修改bean的属性值）
+> BeanFactoryPostProcessor和BeanPostProcessor都是Spring的扩展点。前者在容器初始化阶段执行，可以对BeanDefinition进行扩展改造（比如修改bean的scope属性），后者在bean初始化阶段执行，可以对bean实例化过程进行扩展改造（比如修改bean的属性值）。除了这两种扩展点，Spring还提供了一个Aware扩展点，详见下文
 
 #### bean初始化
 bean初始化阶段也常称为bean生命周期。一个bean的初始化，不仅仅只是实例化一个Java类那么简单。
