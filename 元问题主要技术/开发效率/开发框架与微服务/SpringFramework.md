@@ -1,11 +1,10 @@
 # Spring Framework
 
-Spring，一个Java领域最重要的开发框架。
+Spring，一个Java领域最重要的开发工具集合，由Java编写而成。通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
 
-1998年，Java原母公司sun和IBM推出J2EE `EJB(Enterprise Java Bean)`，不幸的是，该框架很快由于极其难用被开发者诟病，这给了一个叫Rod Johnson的码农人生逆袭的机会。针对EJB，他在2001年出版`《Expert One-on-One J2EE Design and Development》`，提出更简单优美的开发思路，其中就包括了奠定Spring的部分核心设计，比如依赖注入。紧接着，2004年祭出神作`《Expert One-on-One J2EE Development without EJB》`，同年发布Spring 1.0版本，从此开启统治Java开发框架之路。在Rod带领下，2007年成立了SpringSource公司，经过多年收购和被收购，最终Spring项目被收入Pivotal公司名下，自Spring 4起，到最新的Spring 5，均由Pivotal推出。
+1998年，Java原母公司sun和IBM推出J2EE `EJB(Enterprise Java Bean)`，但该框架很快由于极其难用被开发者诟病，这给了一个叫Rod Johnson的码农人生逆袭的机会。针对EJB，他在2001年出版`《Expert One-on-One J2EE Design and Development》`，提出更简单优美的开发思路，其中就包括了奠定Spring的部分核心设计，比如依赖注入。紧接着，2004年祭出神作`《Expert One-on-One J2EE Development without EJB》`，同年发布Spring 1.0版本，从此开启统治Java开发框架之路。在Rod带领下，2007年成立了SpringSource公司，经过多年收购和被收购，最终Spring项目被收入Pivotal公司名下，自Spring 4起，到最新的Spring 5，均由Pivotal推出。
 
-通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
-
+Spring Framework官网是[https://spring.io/projects/spring-framework](https://spring.io/projects/spring-framework)，源码托管在[https://github.com/spring-projects/spring-framework](https://github.com/spring-projects/spring-framework)，目前已发展到5.x版本。
 
 ## 核心设计
 
@@ -137,7 +136,9 @@ public class HelloworldAspect {
 与动态代理相对应的是静态代理。AspectJ就是一种静态代理技术，因为它通过专门编译器在编译期生成代理，而Spring AOP是在运行期生成代理。Spring加入AOP联盟后，曾推出过自己的AOP语法，但使用很不友好，被开发者纷纷吐槽，后来便借鉴AspectJ改进了其AOP表达式，还引用了AspectJ包来提供注解驱动的AOP。
 
 ## Spring MVC原理
-通过Spring Framework，我们可以写出各种类型的应用程序，其中http web应用是最重要的应用之一，比如我们想实现在浏览器上输入`http://127.0.0.1:80/helloworld`时，浏览器上显示出HelloWorld，这就是一个简单的http web应用，而Spring MVC正是Spring Framework提供的web开发框架。Spring MVC与Spring Boot、Spring Cloud，是Spring家族里开发者使用最多的框架。
+通过Spring Framework，我们可以写出各种类型的应用程序（web、数据、安全、消息等），其中web应用是最重要的应用之一，比如我们想实现在浏览器上输入`http://127.0.0.1:80/helloworld`时，浏览器上显示出HelloWorld，这就是一个简单的http web应用，而Spring MVC正是Spring Framework提供的web开发框架。Spring MVC与Spring Boot、Spring Cloud，是Spring家族里开发者使用最多的框架。
+
+> 除了Spring MVC，Spring Framework 5还包含一款新web框架`Spring WebFlux`。两者最大区别在于同步与异步，Spring MVC是同步堵塞I/O模型，为每个请求分配一个线程，而Spring WebFlux是异步非堵塞I/O模型，更能利用多核处理高并发的场景。虽然Spring WebFlux能处理更高并发，但其不支持JDBC，同时响应式编程需要一定学习成本，因此两者没有高下之分，开发者可以自行选择
 
 Spring MVC最常见的使用方式是开发者按照Spring MVC规范编写好一个web程序，打成war包，放到web容器（比如Tomcat）指定路径下启动运行。
 
@@ -171,3 +172,5 @@ public class HelloWorldController {
 * 执行拦截器postHandler
 * DispatchServlet根据view逻辑名找到view解析器
 * view解析器（比如jsp解析器）整合model数据到view，将完整view返回给前端
+
+虽然对比起原生Java，Spring MVC（包括Spring Framework）已经为开发者提供了相当便捷的手段，但仍然还不够便捷，比如不能独立运行需要依赖web容器（Tomcat）、存在配置地狱问题等等。为了更进一步降低学习曲线、提升开发效率，Spring推出了更先进的[Spring Boot](SpringBoot.md)。
