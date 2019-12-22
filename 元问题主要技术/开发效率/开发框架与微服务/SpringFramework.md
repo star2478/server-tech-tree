@@ -2,7 +2,7 @@
 
 Spring，一个Java领域最重要的开发框架。
 
-1998年，Java原母公司sun和IBM推出J2EE `EJB(Enterprise Java Bean)`，不幸的是，该框架很快由于极其难用被开发者诟病，这给了一个叫Rod Johnson的码农人生逆袭的机会。针对EJB，他在2001年出版*《Expert One-on-One J2EE Design and Development》*，提出更简单优美的开发思路，其中就包括了奠定Spring的部分核心设计，比如依赖注入。紧接着，2004年祭出神作*《Expert One-on-One J2EE Development without EJB》*，同年发布Spring 1.0版本，从此开启统治Java开发框架之路。在Rod带领下，2007年成立了SpringSource公司，经过多年收购和被收购，最终Spring项目被收入Pivotal公司名下，自Spring 4起，到最新的Spring 5，均由Pivotal推出。
+1998年，Java原母公司sun和IBM推出J2EE `EJB(Enterprise Java Bean)`，不幸的是，该框架很快由于极其难用被开发者诟病，这给了一个叫Rod Johnson的码农人生逆袭的机会。针对EJB，他在2001年出版`《Expert One-on-One J2EE Design and Development》`，提出更简单优美的开发思路，其中就包括了奠定Spring的部分核心设计，比如依赖注入。紧接着，2004年祭出神作`《Expert One-on-One J2EE Development without EJB》`，同年发布Spring 1.0版本，从此开启统治Java开发框架之路。在Rod带领下，2007年成立了SpringSource公司，经过多年收购和被收购，最终Spring项目被收入Pivotal公司名下，自Spring 4起，到最新的Spring 5，均由Pivotal推出。
 
 通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
 
@@ -137,7 +137,7 @@ public class HelloworldAspect {
 与动态代理相对应的是静态代理。AspectJ就是一种静态代理技术，因为它通过专门编译器在编译期生成代理，而Spring AOP是在运行期生成代理。Spring加入AOP联盟后，曾推出过自己的AOP语法，但使用很不友好，被开发者纷纷吐槽，后来便借鉴AspectJ改进了其AOP表达式，还引用了AspectJ包来提供注解驱动的AOP。
 
 ## Spring MVC原理
-通过Spring Framework，我们可以写出各种类型的应用程序，其中http web应用是最重要的应用之一，比如我们想实现在浏览器上输入http://127.0.0.1:80/helloworld时，浏览器上显示出HelloWorld，这就是一个简单的http web应用，而Spring MVC正是Spring Framework提供的web开发框架。Spring MVC与Spring Boot、Spring Cloud，是Spring家族里开发者使用最多的框架。
+通过Spring Framework，我们可以写出各种类型的应用程序，其中http web应用是最重要的应用之一，比如我们想实现在浏览器上输入`http://127.0.0.1:80/helloworld`时，浏览器上显示出HelloWorld，这就是一个简单的http web应用，而Spring MVC正是Spring Framework提供的web开发框架。Spring MVC与Spring Boot、Spring Cloud，是Spring家族里开发者使用最多的框架。
 
 Spring MVC最常见的使用方式是开发者按照Spring MVC规范编写好一个web程序，打成war包，放到web容器（比如Tomcat）指定路径下启动运行。
 
