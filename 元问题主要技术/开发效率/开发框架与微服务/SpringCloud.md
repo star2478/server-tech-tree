@@ -34,3 +34,5 @@ public class HelloWorld {
 * 全局锁：对应的主要子项目包括Spring Cloud Cluster，借助Zookeeper、Redis实现
 * 领导选举和集群状态：对应的主要子项目包括Spring Cloud Cluster，借助Zookeeper、Hazelcast、Etcd实现
 * 分布式消息传递：对应的主要子项目包括Spring Cloud Bus
+
+除此之外，Spring Cloud还有其他重要的子项目，比如Spring Cloud Sleuth等。
