@@ -8,8 +8,6 @@ Spring Cloud官网是[https://spring.io/projects/spring-cloud](https://spring.io
 
 绝大部分的Spring Cloud模块，本质上还是一个Spring Boot/Spring Framework模块，不过一个微服务应用除了一般的应用模块外，还包括了一些特殊职能的模块，比如注册中心、网关等，这些模块可能依赖了非Spring机构的子项目/组件/依赖库，所以这些模块很可能不是Spring风格的。下面代码片段是Spring Cloud的典型入口程序，可以看到与Spring Boot唯一区别是增加了一个`@EnableDiscoveryClient`注解（该注解的作用是将本模块注册到注册中心），这样看来，Spring Cloud启动也没什么好说的。对于Spring Cloud，本文侧重于介绍其名下一些关键的子项目，比如注册中心、网关等，而这些子项目的主业大多不在开发效率元问题上，而是在可用性等其他元问题上。
 
-@SpringBootApplication
-@EnableDiscoveryClient
 ```Java
 
 @SpringBootApplication
