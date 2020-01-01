@@ -10,7 +10,7 @@ Spring Framework官网是[https://spring.io/projects/spring-framework](https://s
 
 Spring Framework一开始以其简洁周全的设计受到追捧，等到拥有一定市场份额后，才不断增加新的功能，所以其最初的核心设计值得我们来了解。
 
-* 非侵入：它一开始就设计成尽可能减少对应用的侵入。使用Spring核心功能的应用无需继承任何Spring类，通过外置的xml文件就可以使用，而应用一旦不想再使用Spring了，无需修改任何代码。而如果应用使用的是Spring非核心功能，比如JDBC，则还是会有侵入。不过，时至今日Spring已经成为业内的事实标准，它开始鼓励使用核心功能的应用也依赖框架本身，这相当于应用被侵入了，比如开始鼓励使用JavaConfig注解替代原本xml外置配置会使代码更加简洁，相反如果不依赖则会导致代码变得复杂难以维护
+* 非侵入：它一开始就设计成尽可能减少对应用的侵入。使用Spring核心功能的应用无需继承任何Spring类，通过外置的xml文件就可以使用，而应用一旦不想再使用Spring了，无需修改任何代码。而如果应用使用的是Spring非核心功能，比如JDBC，则还是会有侵入。不过，时至今日Spring已经成为业内的事实标准，它开始鼓励使用核心功能的应用也依赖框架本身，这相当于应用被侵入了，比如开始鼓励使用内置的JavaConfig（纯Java代码或注解）替代外置的XML配置，相反如果不依赖则会导致代码变得复杂难以维护
 * `Spring bean`：不管是简单的Java类如`POJO(Plain Old Java Object)`、还是遵循一定规则的Java类如JavaBean，Spring可以将任何形式的Java类转化成可以受到Spring容器管理的实体，这种实体就是Spring bean（后面简称bean）。正是Spring能对Java类实施管理和控制，它才能提供各种原生Java代码无法提供的功能，包括下面的IoC和AOP
 * `IoC(Inversion of Control)`：IoC即控制反转，是Spring最著名的设计，指Java对象不由应用本身来创建和控制，而是交给Spring来控制，简单理解就是用一个类时不需要直接new出来，而是通过注解或配置预设好一个类的创建/销毁行为，当Spring启动或运行时自动将类实例化成bean，然后将bean放入一个称为IoC容器的内存空间里进行管理。几乎所有应用都是由多个类相互依赖和协作实现的，IoC的设计可以让相互协作的类保持松耦合，相反，如果一个类要自己控制其所依赖的其他类的创建，软件将变得难以维护和测试，比如要写一个单测，程序里居然要将依赖链路上的所有Java类实例化才能跑起来，可想而知多复杂。应用里的类越多，依赖关系越复杂，IoC实现的松耦合越显威力。严格来说，IoC有两种常见实现方式：
 	* `DI(Dependency Injection，依赖注入)`：指类对象被动接受IoC容器将其依赖的对象注入，比如bean初始化过程就用到了DI
@@ -45,9 +45,9 @@ Spring Framework一开始以其简洁周全的设计受到追捧，等到拥有�
 ```Java
 
 public static void main(String[] args) {
-	// 容器初始化、bean初始化
-	ApplicationContext context = new AnnotationConfigApplicationContext(HelloWorldConfig.class);
-	// 应用运行期，通过getBean从Spring容器获得一个bean（对应HelloWorld类），这种属于DL依赖查找
+	// 容器初始化、bean初始化：源码里refresh()是关键入口函数
+	ApplicationContext context = new ClassPathXmlApplicationContext("helloworld.xml");
+	// 应用运行期：通过getBean从Spring容器获得一个bean（对应HelloWorld类），这种属于DL依赖查找
 	Demo obj = context.getBean(HelloWorld.class);
 }
 ```
@@ -173,4 +173,6 @@ public class HelloWorldController {
 * DispatchServlet根据view逻辑名找到view解析器
 * view解析器（比如jsp解析器）整合model数据到view，将完整view返回给前端
 
-虽然对比起原生Java，Spring MVC（包括Spring Framework）已经为开发者提供了相当便捷的手段，但仍然还不够便捷，比如不能独立运行需要依赖web容器（Tomcat）、存在配置地狱问题等等。为了更进一步降低学习曲线、提升开发效率，Spring推出了更先进的[Spring Boot](SpringBoot.md)。
+## 结语
+
+虽然对比起原生Java，Spring Framework/Spring MVC已经为开发者提供了相当便捷的手段，但仍然不够，比如不能独立运行需要依赖web容器（Tomcat）、存在配置地狱问题等等。为了更进一步降低学习曲线、提升开发效率，Spring推出了更先进的[Spring Boot](SpringBoot.md)。
