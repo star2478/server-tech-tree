@@ -1,6 +1,6 @@
 # Spring Framework
 
-Spring，一个Java领域最重要的开发工具集合，由Java编写而成。通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
+Spring，一个Java领域最重要的开发工具集合，由Java语言编写而成。通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
 
 1998年，Java原母公司sun和IBM推出J2EE `EJB(Enterprise Java Bean)`，但该框架很快由于极其难用被开发者诟病，这给了一个叫Rod Johnson的码农人生逆袭的机会。针对EJB，他在2001年出版`《Expert One-on-One J2EE Design and Development》`，提出更简单优美的开发思路，其中就包括了奠定Spring的部分核心设计，比如依赖注入。紧接着，2004年祭出神作`《Expert One-on-One J2EE Development without EJB》`，同年发布Spring 1.0版本，从此开启统治Java开发框架之路。在Rod带领下，2007年成立了SpringSource公司，经过多年收购和被收购，最终Spring项目被收入Pivotal公司名下，自Spring 4起，到最新的Spring 5，均由Pivotal推出。
 

@@ -28,9 +28,9 @@ public class HelloWorld {
 * 路由：对应的主要子项目包括Spring Cloud Gateway、Spring Cloud Netflix Zuul
 * 服务间通讯：对应的主要子项目包括Spring Cloud OpenFeign
 * 负载均衡：对应的主要子项目包括Spring Cloud OpenFeign、Spring Cloud Netflix Ribbon
-* 熔断器：对应的主要子项目包括Spring Cloud Netflix Hystrix
+* 熔断器：对应的主要子项目包括[Spring Cloud Netflix Hystrix](../../可用性/应用容错.md)
 * 全局锁：对应的主要子项目包括Spring Cloud Cluster，借助Zookeeper、Redis实现
 * 领导选举和集群状态：对应的主要子项目包括Spring Cloud Cluster，借助Zookeeper、Hazelcast、Etcd实现
 * 分布式消息传递：对应的主要子项目包括Spring Cloud Bus
 
-除此之外，Spring Cloud还有其他重要的子项目，比如Spring Cloud Sleuth等。
+值得关注的是Spring Cloud Alibaba，这是Spring集成了阿里巴巴若干技术的项目，这是阿里在Java微服务领域技术实力的重要体现。除此之外，Spring Cloud还有其他重要的子项目，比如Spring Cloud Sleuth等。
