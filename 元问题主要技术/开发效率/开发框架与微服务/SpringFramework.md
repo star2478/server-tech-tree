@@ -1,17 +1,21 @@
 # Spring Framework
 
 <nav>
-<a href="#核心设计">核心设计</a><br/>
-<a href="#整体架构">整体架构</a><br/>
-<a href="#IoC原理">IoC原理</a><br/>
+<a href="#简介">一、简介</a><br/>
+<a href="#核心设计">二、核心设计</a><br/>
+<a href="#整体架构">三、整体架构</a><br/>
+<a href="#IoC原理">四、IoC原理</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#容器初始化">容器初始化</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#bean初始化">bean初始化</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#应用运行期">应用运行期</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#销毁">销毁</a><br/>
-<a href="#AOP原理">AOP原理</a><br/>
-<a href="#Spring MVC原理">Spring MVC原理</a><br/>
-<a href="#结语">结语</a><br/>
+<a href="#AOP原理">五、AOP原理</a><br/>
+<a href="#Spring-MVC原理">六、Spring MVC原理</a><br/>
+<a href="#结语">七、结语</a><br/>
 </nav>
+<br/>
+
+## 简介
 
 Spring，一个Java领域最重要的开发工具集合，由Java语言编写而成。通过官网[spring.io](https://spring.io)可以看到，Spring已经发展成一个大家族，在这个家族里，最元老级的项目当属`Spring Framework`。Spring Framework包含了Spring最重要的设计哲学，也是几乎所有Spring项目的基石。我们常说的Spring 1到5版本实际就是Spring Framework 1~5。
 
