@@ -59,7 +59,7 @@ run()的工作原理如下：
 	* 充分利用`@SpringBootApplication`注解，将许多关键Spring bean自动注册到IoC容器。@SpringBootApplication是Spring Boot最重要的注解，是一个复合注解，主要集成了`@Configuration`、`@ComponentScan`、`@EnableAutoConfiguration`三个运行期注解，前两个是Spring Framework的注解，后一个是Spring Boot的注解。@Configuration将所修饰的类变成配置类，配置类里可以指定任意类为Spring bean并注册到IoC容器。@ComponentScan扫描指定路径并找出所有Spring bean，实例化注册到IoC容器中。@EnableAutoConfiguration借助SpringFactoriesLoader，从spring.factories中找到所有key为org.springframework.boot.autoconfigure.EnableAutoConfiguration的类，通过反射实例化成bean注册到IoC容器中
 * 执行CommandLineRunner：这是Spring Boot一个扩展点，如果开发者想在启动快结束时做点什么，可以通过实现CommandLineRunner接口来实现。开发者可以实现多个CommandLineRunner，并能指定相应的Order来进行排序执行
 * 关闭事件监听
-* 关闭事件监控
+* 关闭时间监控
 
 ## 结语
 
