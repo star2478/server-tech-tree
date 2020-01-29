@@ -145,12 +145,15 @@ public class HelloworldAspect {
 }
 ```
 
-如果一个bean被织入了切面逻辑，即位于切面类中`@Pointcut`指定包路径下，以上面代码为例就是某个xxController类，那在bean初始化时会对这个bean做进一步增强，最终变成一个代理bean，代理bean的每个方法前后都会加上doBefore和doAfter相关逻辑，这个过程发生在BeanPostProcessor执行阶段。代理bean的生成是基于Java两种动态代理技术实现：`JDK动态代理`和`CGLIB(Code Generation Library)动态代理`。默认情况下，如果bean实现了接口则使用JDK动态代理（也可以指定使用CGLIB生成），否则使用CGLIB生成。
-> Java动态代理技术是实现Spring AOP的关键技术
+如果一个bean被织入了切面逻辑，即位于切面类中`@Pointcut`指定包路径下，以上面代码为例就是某个xxController类，那在bean初始化时会对这个bean做进一步增强，最终变成一个代理bean，代理bean的每个方法前后都会加上doBefore和doAfter相关逻辑，这个过程发生在BeanPostProcessor执行阶段。代理bean的生成是基于Java两种动态代理技术实现：`JDK动态代理`和`CGLIB(Code Generation Library)动态代理`。默认情况下，如果bean实现了接口则使用JDK动态代理（也可以指定使用CGLIB生成），否则使用CGLIB生成。JDK动态代理是基于Java反射技术实现的，其优势在于内置在JDK中，不需要依赖任何第三方技术，但要求bean要实现接口。CGLIB不要求bean必须实现接口，但生成的代理bean继承了bean，所以要求bean不能是final class，此外，CGLIB使用FastClass技术调用方法，比JDK动态代理的反射方式性能更好。
 
-除了JDK动态代理和CGLIB，Java领域还有其他动态代理技术，比如Javassist和ASM。JDK动态代理是基于Java反射技术实现的，其优势在于内置在JDK中，不需要依赖任何第三方技术，但性能相对较差。CGLIB和Javassist都是高级的字节码操作库，由于能够操作底层字节码（实际下面还要依赖ASM），性能比JDK动态代理好，而且功能十分强大。ASM是低级的字节码操作库，真正直接操作字节码，所以性能最好，但对开发和维护的要求很高。
+除了JDK动态代理和CGLIB，Java领域还有其他动态代理技术，比如ASM和Javassist。CGLIB是高级字节码操作库，要依赖ASM操作字节码，而ASM是低级字节码操作库，可直接操作字节码，性能最好，但对开发和维护的要求很高。
 
-与动态代理相对应的是静态代理。AspectJ就是一种静态代理技术，因为它通过专门编译器在编译期生成代理，而Spring AOP是在运行期生成代理。Spring加入AOP联盟后，曾推出过自己的AOP语法，但使用很不友好，被开发者纷纷吐槽，后来便借鉴AspectJ改进了其AOP表达式，还引用了AspectJ包来提供注解驱动的AOP。
+与动态代理相对应的是静态代理。AspectJ就是一种静态代理技术，因为它通过专门编译器在编译期生成代理，而动态代理技术是在运行期生成代理。
+
+总而言之，Java动态代理技术是实现Spring AOP的关键技术。
+
+> 题外话：如上面所述，Spring是AOP联盟成员，加入AOP联盟后，Spring曾推出过自己的AOP语法，但使用很不友好，被开发者纷纷吐槽，后来便借鉴AspectJ改进了其AOP表达式，还引用了AspectJ包来提供注解驱动的AOP。
 
 ## Spring MVC原理
 通过Spring Framework，我们可以写出各种类型的应用程序（web、数据、安全、消息等），其中web应用是最重要的应用之一，比如我们想实现在浏览器上输入`http://127.0.0.1:80/helloworld`时，浏览器上显示出HelloWorld，这就是一个简单的http web应用，而Spring MVC正是Spring Framework提供的web开发框架。Spring MVC与Spring Boot、Spring Cloud，是Spring家族里开发者使用最多的框架。
