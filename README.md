@@ -27,7 +27,6 @@
 	    * [SpringBoot](元问题主要技术/开发效率/开发框架与微服务/SpringBoot.md)
 	    * [SpringCloud](元问题主要技术/开发效率/开发框架与微服务/SpringCloud.md)
     * ServiceMesh服务网格技术
-    * Serverless无服务技术
     * 共享技术与中台
     * 扩展性技术
     * 无代码开发
@@ -37,6 +36,7 @@
     * 云计算之IaaS与虚拟化技术
     * 服务治理
     * DevOps与CICD
+    * Serverless无服务技术
 * 可用性
     * [单一应用可用性](元问题主要技术/可用性/单一应用可用性.md)
     * 整体应用架构可用性
